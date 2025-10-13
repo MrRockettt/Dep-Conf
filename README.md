@@ -7,5 +7,5 @@ find . -type f -name package.json | xargs -n1 -I{} cat {} | jq -r '.dependencies
 ## Tools
 https://github.com/tomnomnom/fff
 https://github.com/gabrie30/ghorg
-
+https://github.com/visma-prodsec/confused
 https://github.com/tomnomnom/dotfiles/blob/master/scripts/git-dump
